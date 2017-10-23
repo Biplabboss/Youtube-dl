@@ -4,7 +4,11 @@
 echo -e "Updating default packages\n"
 apt update && apt -y upgrade
 
+pkg install -y ruby
+gem install lolcat
+
 pkg install -y toilet
+pkg install figlet
 
 toilet -f mono12 -F border "Biplab Das"
 toilet -f term -F border -F metal "Follow my social handle wp- +1(518) 350-6393"
@@ -33,5 +37,6 @@ wget http://pastebin.com/raw/LhDxGbtY -O ~/bin/termux-url-opener
 dos2unix ~/bin/termux-url-opener
 
 
+figlet -f big "Biplab Das" | lolcat
 echo -e "\n"
 echo -e "Copyright 2017 Gabi Tiplea\n"
