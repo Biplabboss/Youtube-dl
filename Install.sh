@@ -6,10 +6,10 @@ apt update && apt -y upgrade
 
 pkg install -y toilet
 
-toilet -f mono12 -F border "Biplab Das"echo -e "Requesting acces to storage\n"
-
+toilet -f mono12 -F border "Biplab Das"
 toilet -f term -F border -F metal "Follow my social handle wp- +1(518) 350-6393"
 
+echo -e "Requesting acces to storage\n"
 termux-setup-storage
 sleep 5
 
