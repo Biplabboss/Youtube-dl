@@ -34,7 +34,7 @@ echo -e "Creating bin folder\n"
 mkdir ~/bin
 
 echo -e "Downloading and installing termux-url-opener\n"
-curl LO -https://raw.githubusercontent.com/Biplabboss/Youtube-dl/master/biplab ~/bin/termux-url-opener
+curl-LO https://raw.githubusercontent.com/Biplabboss/Youtube-dl/master/biplab ~/bin/termux-url-opener
 dos2unix ~/bin/termux-url-opener
 
 
