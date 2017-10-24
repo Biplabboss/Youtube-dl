@@ -11,8 +11,9 @@ gem install lolcat
 pkg install -y toilet
 pkg install figlet
 
-toilet -f mono12 -F border "Biplab Das"
+toilet -f mono12 -F border "Biplab"
 toilet -f term -F border -F metal "Follow my social handle wp- +1(518) 350-6393"
+sleep 10
 
 echo -e "Requesting acces to storage\n"
 termux-setup-storage
