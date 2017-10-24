@@ -3,6 +3,7 @@
 
 echo -e "Updating default packages\n"
 apt update && apt -y upgrade
+pkg install -y curl
 
 pkg install -y ruby
 gem install lolcat
@@ -33,7 +34,7 @@ echo -e "Creating bin folder\n"
 mkdir ~/bin
 
 echo -e "Downloading and installing termux-url-opener\n"
-wget http://pastebin.com/raw/LhDxGbtY -O ~/bin/termux-url-opener
+curl LO -https://raw.githubusercontent.com/Biplabboss/Youtube-dl/master/biplab ~/bin/termux-url-opener
 dos2unix ~/bin/termux-url-opener
 
 
