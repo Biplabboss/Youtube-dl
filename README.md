@@ -15,4 +15,13 @@ pkg install -y git
 git clone https://github.com/Biplabboss/Youtube-dl.git
 
 
+cd Youtube-dl
+
+
+chmod +x Install.sh
+
+
+./Install.sh
+
+
 # now go to youtube and press share bottom on any type of youtube video and then select termux after opening termux select any categories of video
