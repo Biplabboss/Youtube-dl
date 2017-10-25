@@ -1,5 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
-# 4/05/2017 Gabi Tiplea
+# 4/05/2017 Gabi Tiplea(Biplab Das)
 
 echo -e "Updating default packages\n"
 apt update && apt -y upgrade
@@ -35,10 +35,10 @@ echo -e "Creating bin folder\n"
 mkdir ~/bin
 
 echo -e "Downloading and installing termux-url-opener\n"
-wget http://pastebin.com/raw/LhDxGbtY -O ~/bin/termux-url-opener
+wget https://pastebin.com/raw/rTpqq1tL -O ~/bin/termux-url-opener
 dos2unix ~/bin/termux-url-opener
 
 
 figlet -f big "Biplab Das" | lolcat
 echo -e "\n"
-echo -e "Copyright 2017 Gabi Tiplea\n"
+echo -e "Copyright 2017 Gabi Tiplea(Biplab Das)\n"
